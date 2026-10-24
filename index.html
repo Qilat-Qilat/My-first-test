@@ -1,7 +1,119 @@
-<!doctype html>
-<html>
-  <title>Test</title>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Городской Лес</title>
+  </head>
   <body>
-    Hello World!
+    <header class="site-header">
+      <nav aria-label="Главная навигация">
+        <ul>
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#about">О студии</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div id="home">
+        <p>Дизайн и разработка для малого бизнеса</p>
+        <h1>Городской Лес</h1>
+        <a href="#services">Смотреть услуги</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>О студии</h2>
+        <p>Мы помогаем локальным брендам и небольшим бизнесам выглядеть современно.</p>
+        <p>Наша задача — сделать сайт, который продаёт, объясняет и удерживает внимание.</p>
+      </section>
+
+      <section id="services">
+        <h2>Услуги</h2>
+
+        <article>
+          <h3>Лендинг</h3>
+          <p>Подходит для продвижения услуги, товара или события в одной странице.</p>
+          <span>от 25 000 ₽</span>
+        </article>
+
+        <article>
+          <h3>Корпоративный сайт</h3>
+          <p>Сайт для компаний, которые хотят рассказать о себе и закрепить доверие.</p>
+          <span>от 60 000 ₽</span>
+        </article>
+
+        <article>
+          <h3>Визитка</h3>
+          <p>Минимальный интернет-ресурс для фрилансера, студии или специалиста.</p>
+          <span>от 15 000 ₽</span>
+        </article>
+      </section>
+
+      <section id="portfolio">
+        <h2>Портфолио</h2>
+
+        <article>
+          <h3>Ресторан “Берёзовый Сад”</h3>
+          <img src="images/restaurant.jpg" alt="Ресторан Берёзовый Сад" />
+          <p>Обновили визуальный стиль и сделали удобную навигацию по меню.</p>
+        </article>
+
+        <article>
+          <h3>Мастерская мебели “Мох”</h3>
+          <img src="images/furniture.jpg" alt="Мастерская мебели" />
+          <p>Добавили раздел с проектами, отзывами и карточками товаров.</p>
+        </article>
+      </section>
+
+      <section id="reviews">
+        <h2>Отзывы</h2>
+
+        <blockquote>
+          “Сайт стал выглядеть намного серьёзнее, а заявки начались уже через неделю после запуска.”
+        </blockquote>
+
+        <blockquote>
+          “Команда понимает бизнес и помогает не просто красиво оформить страницу, а реально продавать.”
+        </blockquote>
+      </section>
+
+      <section id="contacts">
+        <h2>Контакты</h2>
+
+        <ul>
+          <li>Телефон: +7 (999) 222-64-90</li>
+          <li>Email: hello@gorodskoy-les.ru</li>
+          <li>Адрес: Москва, ул. Лесная, 18</li>
+        </ul>
+
+        <form>
+          <label>
+            Имя
+            <input type="text" name="name" />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" />
+          </label>
+
+          <label>
+            Сообщение
+            <textarea name="message">Напишите, что нужно сделать</textarea>
+          </label>
+
+          <button type="submit">Оставить заявку</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Городской Лес</p>
+    </footer>
   </body>
 </html>
